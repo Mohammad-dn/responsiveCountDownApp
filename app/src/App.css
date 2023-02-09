@@ -1,0 +1,50 @@
+@media only screen and (max-width: 400px) {
+.App{
+  background-color: redae;
+}
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.App {
+  border: 0.5px solid #111449;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10rem 20rem;
+  box-shadow: 2px 2px 2px 2px #111449;
+  background-image: url(./illuminated-big-ben-london-night-wet-streets-rain-169935182.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.timer {
+  font-size: 40px;
+  font-weight: bolder;
+  border: 1px solid #111449;
+  border-radius: 15px;
+  padding: 20% 80%;
+  margin: 10%;
+  box-shadow: 1px 1px 1px 1px #000000;
+background-color: #1c1c1d;
+opacity: 80%;
+color: rgb(9, 51, 87);
+font-weight: 900;
+}
+.header-section{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  font-weight: bolder;
+  border-radius: 15px;
+  position: absolute;
+  top: 10%;
+opacity: 80%;
+color: rgb(63, 93, 120);
+font-weight: 900;
+}
